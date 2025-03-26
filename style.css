@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pagina_inicial {
+   
+    background-color: rgb(255, 255, 255);
+}
+
+.cabecalho {
+    padding: 1%;
+    background-color:rgb(255, 255, 255);
+}
+
+.cabecalho__logo {
+    max-width: 100%;
+}
+
+.pagina_inicial__conteudo {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+.pagina_inicial__conteudo__apresentacao {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.pagina_inicial__imagem {
+    height: 410px;
+    width: 300px;
+
+}
+
+
+.rodape {
+    max-height: 190px;
+    background-color: black;
+    
+}
+.rodape_logo{
+    max-width:380px;
+    padding: 1%;
+}
+
